@@ -146,6 +146,25 @@ body {
   color: #fff;
 }
 
+/* تأثير عند المرور */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* السعر */
+.price-box {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 12px auto;
+  width: fit-content;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+
 /* Contact */
 .contact {
   padding: 20px;
